@@ -1,5 +1,16 @@
 export default function Home() {
   return (
-    <h1>Calculadora de Etanol</h1>
+    <main>
+      <div className="imagem">
+        <img src={"./imagem.png"} />
+      </div>
+      <form>
+        <input />
+        <input />
+        <button>
+          Enviar
+        </button>
+      </form>
+    </main>
   )
 }
