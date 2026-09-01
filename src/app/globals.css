@@ -39,10 +39,10 @@ img {
 
 main form {
   width: 100%;
-  max-width: 320px;
+  max-width: 380px;
   display: flex;
   flex-direction: column;
-  gap: 0.4rem;
+  gap: 0.5rem;
 }
 
 input, button {
@@ -54,9 +54,23 @@ input, button {
 }
 
 input {
-  height: 2rem;
+  height: 2.2rem;
 }
 
 button {
-  height: 2.4rem;
+  height: 2.5rem;
+  color: #111;
+  background-color: #4f4;
+  transition: all 0.15s;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #0f0;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
