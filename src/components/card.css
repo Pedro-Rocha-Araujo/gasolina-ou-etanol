@@ -1,10 +1,10 @@
 div.background {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   background-color: #000000a1;
   width: 100%;
-  min-height: 100dvh;
+  height: 100dvh;
   display: flex;
   justify-content: center;
   align-items: center;

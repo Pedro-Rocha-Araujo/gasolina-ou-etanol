@@ -6,10 +6,14 @@ import Card from "@/components/Card"
 export default function Home() {
   const [card, setCard] = useState<boolean>(true)
 
+  function fecharCard() {
+    setCard(false)
+  }
+
   return (
     <main>
       { card === true && (
-        <Card />
+        <Card fechar={fecharCard} />
       ) }
 
       <div className="imagem">
