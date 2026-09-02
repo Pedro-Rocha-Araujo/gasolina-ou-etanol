@@ -41,14 +41,16 @@ export default function Home() {
         <input 
           type="number" 
           placeholder="Valor da Gasolina"
-          onChange={(e)=>setGasolina(e.target.value)}
+          step={0.1}
+          onChange={(e)=>setGasolina(Number(e.target.value))}
           required 
         />
 
         <input 
           type="number" 
           placeholder="Valor do Etanol"
-          onChange={(e)=>setEtanol(e.target.value)}
+          step={0.1}
+          onChange={(e)=>setEtanol(Number(e.target.value))}
           required 
         />
 
