@@ -2,10 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
-  background: linear-gradient(#000000ea, #111111f6), url("../../public/background.jpg");
+  background: linear-gradient(#000000d8, #111111f6), url("../../public/background.jpg");
   background-position: center;
   display: flex;
   justify-content: center;
@@ -57,14 +58,14 @@ input {
   height: 2.2rem;
 }
 
-button {
+form button {
   height: 2.5rem;
   color: #111;
   background-color: #4f4;
   transition: all 0.15s;
 }
 
-button:hover {
+form button:hover {
   cursor: pointer;
   background-color: #0f0;
 }

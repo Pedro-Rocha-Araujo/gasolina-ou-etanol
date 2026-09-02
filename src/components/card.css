@@ -1,0 +1,30 @@
+div.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #000000a1;
+  width: 100%;
+  min-height: 100dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.card {
+  width: 98%;
+  max-width: 580px;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+div.card button {
+  color: #fff;
+  padding: 0.5rem;
+  background-color: #f44;
+  transition: all 0.15s;
+}
+
+div.card button:hover {
+  background-color: #f55;
+}
