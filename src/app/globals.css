@@ -55,11 +55,11 @@ input, button {
 }
 
 input {
-  height: 2.2rem;
+  height: 2.4rem;
 }
 
 form button {
-  height: 2.5rem;
+  height: 2.6rem;
   color: #111;
   background-color: #4f4;
   transition: all 0.15s;

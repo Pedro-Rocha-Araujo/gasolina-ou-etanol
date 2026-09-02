@@ -13,6 +13,9 @@ div.background {
 div.card {
   width: 98%;
   max-width: 580px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
   background-color: #fff;
   padding: 1rem;
   border-radius: 0.5rem;
@@ -20,6 +23,7 @@ div.card {
 
 div.card button {
   color: #fff;
+  margin-top: 0.2rem;
   padding: 0.5rem;
   background-color: #f44;
   transition: all 0.15s;
