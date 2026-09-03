@@ -40,7 +40,7 @@ export default function Home() {
       <form onSubmit={mostrarResultado}>
         <input 
           type="number" 
-          placeholder="Valor da Gasolina"
+          placeholder="Valor do litro da Gasolina"
           step={0.1}
           onChange={(e)=>setGasolina(Number(e.target.value))}
           required 
@@ -48,7 +48,7 @@ export default function Home() {
 
         <input 
           type="number" 
-          placeholder="Valor do Etanol"
+          placeholder="Valor do litro do Etanol"
           step={0.1}
           onChange={(e)=>setEtanol(Number(e.target.value))}
           required 
