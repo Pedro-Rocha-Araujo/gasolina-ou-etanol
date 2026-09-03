@@ -21,6 +21,14 @@ div.card {
   border-radius: 0.5rem;
 }
 
+div.card h2 {
+  font-size: clamp(1.2rem, 10vw, 2rem);
+}
+
+div.card p {
+  font-size: clamp(0.8rem, 4vw, 1rem);
+}
+
 div.card button {
   color: #fff;
   margin-top: 0.2rem;

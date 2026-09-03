@@ -26,7 +26,7 @@ main {
 
 div.imagem {
   padding: 2.2rem 2.2rem 2.2rem 2.5rem;
-  width: 96%;
+  width: 90%;
   max-width: 260px;
   background-color: #fff;
   border-radius: 50%;
@@ -39,7 +39,7 @@ img {
 }
 
 main form {
-  width: 100%;
+  width: 98%;
   max-width: 380px;
   display: flex;
   flex-direction: column;
@@ -48,7 +48,7 @@ main form {
 
 input, button {
   padding: 0.4rem;
-  font-size: 1rem;
+  font-size: clamp(0.8rem, 4vw, 1rem);
   width: 100%;
   border: none;
   outline: none;
